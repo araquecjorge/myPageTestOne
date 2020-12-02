@@ -65,10 +65,8 @@ body {
 .but-head {
     border: 0;
     color: white;
-    margin-left: 20px;
     margin-right: 10px;
     background: transparent;
-    text-shadow: white 0 2.4px
 }
 .but-head:hover {
     color: blue;
@@ -123,8 +121,8 @@ header {
 }
 .graphic {
     margin:15px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/graphic\ desing.jpeg");
     background-color: black;
@@ -136,8 +134,8 @@ header {
 }
 .web {
     margin:15px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/web\ development.jpeg");
     background-color: black;
@@ -149,8 +147,8 @@ header {
 }
 .media {
     margin:15px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/media\ marketing.png");
     background-color: black;
@@ -162,8 +160,8 @@ header {
 }
 .advertising {
     margin:15px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/advertising.jpeg");
     background-color: black;
@@ -175,8 +173,8 @@ header {
 }
 .game {
     margin:15px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/game\ development.jpeg");
     background-color: black;
@@ -188,8 +186,8 @@ header {
 } 
 .analytics {
     margin:15px;
-    width: 200px;
-    height: 200px;
+    width: auto;
+    height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/analytics.jpeg");
     background-color: black;

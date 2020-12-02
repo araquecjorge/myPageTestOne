@@ -1,8 +1,14 @@
 /* =========== Small Device========= */
 @media(min-width: 576px) {
-    .test-phone {
-        background-color: indigo;
-    }
+    /*.second-step {
+        border-radius: 20px;
+        height: auto;
+        width: auto;
+        background-image: url("../pictures/IMG-20190528-WA0019.jpg");
+        background-color: black;
+        background-size: cover;
+        background-position: center;
+    }*/
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -46,9 +52,6 @@
 }
 /* ======== Medium Device =========== */
 @media (min-width: 768px) {
-    .test-laptop {
-        background-color: lawngreen;
-    }
     .row {
         display: flex;
         flex-wrap: wrap;
@@ -93,13 +96,9 @@
 /* =======Large Devices========== */
 
 @media(min-width: 992px) {
-    .test-tv {
-        background-color: orangered;
-    }
     .row {
         display: flex;
         flex-wrap: wrap;
-        
     }
     .col-lrg-1 {
         width: 8.33%;
