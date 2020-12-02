@@ -1,0 +1,345 @@
+body {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../pictures/fondo.png");
+    margin: 18px;
+}
+/*Complementos*/
+.footer {
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    background-color: #505050;
+    display: flex;
+    margin: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.end-card {
+    padding: 15px;
+    color: white;
+}
+.button {
+    color: white;
+    margin-left: 43%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    border-color: grey;
+}
+.p-card {
+    background-color: rgb(0 0 0 / 0.75);
+    border-radius: 20px;
+    padding: 15px;
+}
+.font {
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    color: #e6e6e6;
+    text-align: center;
+}
+.mt {
+    margin-top: 16px;
+}
+.title-alone {
+    padding-left: 40%;
+    color: white;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.title-head {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+.icons {
+    text-decoration: none;
+    color: white;
+    margin: 16px;
+}
+.icons:hover {
+    color:blue;
+}
+/*First section*/
+.but-head {
+    border: 0;
+    color: white;
+    margin-left: 20px;
+    margin-right: 10px;
+    background: transparent;
+    text-shadow: white 0 2.4px
+}
+.but-head:hover {
+    color: blue;
+}
+header {
+    height: 50px;
+    width: auto;
+    background-color: #000000;
+    margin: 15px;
+    border-radius: 20px;
+    justify-content: space-between;
+    display: flex;
+}
+.firs-step {
+    border-radius: 20px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/IMG-20190422-WA0030.jpg");
+    height: auto;  
+    width: auto;
+    padding-top: 100px;
+    margin: 15px;
+}
+/*Second section*/
+.second-step {
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    background-color: #505050;
+    display: flex;
+    margin: 15px;
+}
+.second-image {
+    width: 50%;
+    height: 250px;
+    margin:20px;
+    border-radius: 5px;
+    background-image: url("../pictures/IMG-20190528-WA0019.jpg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.p-second {
+    width: 50%;
+    margin: 15px;
+}
+/* skills service*/
+.skilservice {
+    display: flex;
+    flex-wrap: wrap;
+}
+.graphic {
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/graphic\ desing.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.graphic:hover {
+    transform: scale(0.8);
+}
+.web {
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/web\ development.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.web:hover {
+    transform: scale(0.8);
+}
+.media {
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/media\ marketing.png");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.media:hover {
+    transform: scale(0.8);
+}
+.advertising {
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/advertising.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.advertising:hover {
+    transform: scale(0.8);
+}
+.game {
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/game\ development.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.game:hover {
+    transform: scale(0.8);
+} 
+.analytics {
+    margin:15px;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/analytics.jpeg");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.analytics:hover {
+    transform: scale(0.8);
+}
+/* wokrs */
+.all-works {
+    border-radius: 20px;
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../pictures/fondo\ works.jpeg");
+    height: auto;  
+    width: auto;
+    padding-top: 100px;
+    margin: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.work-one {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 1.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-one:hover {
+    transform: scale(1.2);
+}
+.work-two {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 2.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-two:hover {
+    transform: scale(1.2);
+}
+.work-three {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 3.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-three:hover {
+    transform: scale(1.2);
+}
+.work-for {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 4.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-for:hover {
+    transform: scale(1.2);
+}
+.work-five {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 5.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-five:hover {
+    transform: scale(1.2);
+}
+.work-six {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 6.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-six:hover {
+    transform: scale(1.2);
+}
+.work-seven {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 7.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-seven:hover {
+    transform: scale(1.2);
+}
+.work-eight {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 8.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-eight:hover {
+    transform: scale(1.2);
+}
+.work-nine {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 9.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-nine:hover {
+    transform: scale(1.2);
+}
+.work-ten {
+    margin:15px;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    background-image: url("../pictures/works\ 10.PNG");
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.work-ten:hover {
+    transform: scale(1.2);
+}

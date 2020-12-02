@@ -1,0 +1,140 @@
+/* =========== Small Device========= */
+@media(min-width: 576px) {
+    .test-phone {
+        background-color: indigo;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-sml-1 {
+        width: 8.33%;
+    }
+    .col-sml-2 {
+        width: 16.66%;
+    }
+    .col-sml-3 {
+        width: 25%;
+    }
+    .col-sml-4 {
+        width: 33.33%;
+    }
+    .col-sml-5 {
+        width: 41.66%;
+    }
+    .col-sml-6 {
+        width: 50%;
+    }
+    .col-sml-7 {
+        width: 58.33%;
+    }
+    .col-sml-8 {
+        width: 66.66%;
+    }
+    .col-sml-9 {
+        width: 75%;
+    }
+    .col-sml-10 {
+        width: 83.33%;
+    }
+    .col-sml-11 {
+        width: 91.66%;
+    }
+    .col-sml-12 {
+        width: 100%;
+    }
+}
+/* ======== Medium Device =========== */
+@media (min-width: 768px) {
+    .test-laptop {
+        background-color: lawngreen;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+}
+/* =======Large Devices========== */
+
+@media(min-width: 992px) {
+    .test-tv {
+        background-color: orangered;
+    }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        
+    }
+    .col-lrg-1 {
+        width: 8.33%;
+    }
+    .col-lrg-2 {
+        width: 16.66%;
+    }
+    .col-lrg-3 {
+        width: 25%;
+    }
+    .col-lrg-4 {
+        width: 33.33%;
+    }
+    .col-lrg-5 {
+        width: 41.66%;
+    }
+    .col-lrg-6 {
+        width: 50%;
+    }
+    .col-lrg-7 {
+        width: 58.33%;
+    }
+    .col-lrg-8 {
+        width: 66.66%;
+    }
+    .col-lrg-9 {
+        width: 75%;
+    }
+    .col-lrg-10 {
+        width: 83.33%;
+    }
+    .col-lrg-11 {
+        width: 91.66%;
+    }
+    .col-lrg-12 {
+        width: 100%;
+    }  
+}
