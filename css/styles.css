@@ -43,7 +43,7 @@ body {
     margin-top: 16px;
 }
 .title-alone {
-    padding-left: 40%;
+    text-align: center;
     color: white;
     font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -61,6 +61,10 @@ body {
 .icons:hover {
     color:blue;
 }
+.backgroundpt {
+    background-position: top;
+}
+    
 /*First section*/
 .but-head {
     border: 0;
@@ -82,12 +86,11 @@ header {
 }
 .firs-step {
     border-radius: 20px;
+    background-position: top;
     background-color: black;
     background-size: cover;
-    background-position: center;
     background-image: url("../pictures/IMG-20190422-WA0030.jpg");
     height: auto;  
-    width: auto;
     padding-top: 100px;
     margin: 15px;
 }
@@ -118,10 +121,11 @@ header {
 .skilservice {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 }
 .graphic {
     margin:15px;
-    width: auto;
+    /*width: auto;*/
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/graphic\ desing.jpeg");
@@ -134,7 +138,7 @@ header {
 }
 .web {
     margin:15px;
-    width: auto;
+    /*width: auto;*/
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/web\ development.jpeg");
@@ -147,7 +151,7 @@ header {
 }
 .media {
     margin:15px;
-    width: auto;
+    /*width: auto;*/
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/media\ marketing.png");
@@ -160,7 +164,7 @@ header {
 }
 .advertising {
     margin:15px;
-    width: auto;
+    /*width: auto;*/
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/advertising.jpeg");
@@ -173,7 +177,7 @@ header {
 }
 .game {
     margin:15px;
-    width: auto;
+    /*width: auto;*/
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/game\ development.jpeg");
@@ -186,7 +190,7 @@ header {
 } 
 .analytics {
     margin:15px;
-    width: auto;
+    /*width: auto;*/
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/analytics.jpeg");
