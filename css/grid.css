@@ -1,14 +1,8 @@
 /* =========== Small Device========= */
 @media(min-width: 576px) {
-    /*.second-step {
-        border-radius: 20px;
-        height: auto;
+    .no-width {
         width: auto;
-        background-image: url("../pictures/IMG-20190528-WA0019.jpg");
-        background-color: black;
-        background-size: cover;
-        background-position: center;
-    }*/
+    }
     .row {
         display: flex;
         flex-wrap: wrap;

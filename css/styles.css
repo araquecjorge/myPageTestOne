@@ -1,222 +1,205 @@
 body {
+    background-color: #5e2206;
     background-position: center;
     background-size: cover;
-    background-image: url("../pictures/fondo.png");
-    margin: 18px;
-}
-/*Complementos*/
-.footer {
-    border-radius: 20px;
-    height: auto;
-    width: auto;
-    background-color: #505050;
-    display: flex;
-    margin: 15px;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.end-card {
-    padding: 15px;
-    color: white;
-}
-.button {
-    color: white;
-    margin-left: 43%;
-    background: transparent;
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 17px;
-    border-color: grey;
-}
-.p-card {
-    background-color: rgb(0 0 0 / 0.75);
+    margin: 20px;
+    padding: 30px;
+    border-style: double;
+  }
+  /*--------------------------Complementos-----------------------*/
+  .size-font {
+    font-size: 20px;
+  }
+  .p-card {
+    background-color: rgba(50, 50, 50, 0.5);
     border-radius: 20px;
     padding: 15px;
-}
-.font {
-    font-size: large;
-    font-family: 'Times New Roman', Times, serif;
+  }
+  .font {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
     color: #e6e6e6;
     text-align: center;
-}
-.mt {
+  }
+  .mt {
     margin-top: 16px;
-}
-.title-alone {
+  }
+  .title-alone {
     text-align: center;
     color: white;
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-.title-head {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .title-head {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     text-align: center;
-}
-.icons {
-    text-decoration: none;
-    color: white;
-    margin: 16px;
-}
-.icons:hover {
-    color:blue;
-}
-.backgroundpt {
-    background-position: top;
-}
-    
-/*First section*/
-.but-head {
+  }
+  /*-------------------------First section----------------------*/
+  .but-head {
     border: 0;
     color: white;
     margin-right: 10px;
     background: transparent;
-}
-.but-head:hover {
-    color: blue;
-}
-header {
+  }
+  .but-head:hover {
+    color: #ff650f;
+  }
+  header {
     height: 50px;
     width: auto;
-    background-color: #000000;
+    background-color: rgba(50, 50, 50, 0.5);
     margin: 15px;
     border-radius: 20px;
     justify-content: space-between;
     display: flex;
-}
-.firs-step {
+  }
+  .firs-step {
     border-radius: 20px;
     background-position: top;
     background-color: black;
     background-size: cover;
     background-image: url("../pictures/IMG-20190422-WA0030.jpg");
-    height: auto;  
+    height: auto;
     padding-top: 100px;
     margin: 15px;
-}
-/*Second section*/
-.second-step {
+  }
+  .icons {
+    text-decoration: none;
+    color: white;
+    margin: 16px;
+  }
+  .icons:hover {
+    color: #ff650f;
+  }
+  /*---------------------------Second section-------------------*/
+  .second-step {
     border-radius: 20px;
     height: auto;
     width: auto;
-    background-color: #505050;
+    background-color: rgba(50, 50, 50, 0.5);
     display: flex;
     margin: 15px;
-}
-.second-image {
+  }
+  .second-image {
     width: 50%;
-    height: 250px;
-    margin:20px;
+    min-height: 250px;
+    margin: 20px;
     border-radius: 5px;
     background-image: url("../pictures/IMG-20190528-WA0019.jpg");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.p-second {
+  }
+  .p-second {
     width: 50%;
     margin: 15px;
-}
-/* skills service*/
-.skilservice {
+  }
+  /*------------------------ skills service-----------------------*/
+  .skilservice {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-.graphic {
-    margin:15px;
-    /*width: auto;*/
+  }
+  .graphic {
+    margin: 15px;
+    margin-bottom: 15px;
+    width: 235px;
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/graphic\ desing.jpeg");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.graphic:hover {
+  }
+  .graphic:hover {
     transform: scale(0.8);
-}
-.web {
-    margin:15px;
-    /*width: auto;*/
+  }
+  .web {
+    margin: 15px;
+    margin-bottom: 15px;
+    width: 235px;
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/web\ development.jpeg");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.web:hover {
+  }
+  .web:hover {
     transform: scale(0.8);
-}
-.media {
-    margin:15px;
-    /*width: auto;*/
+  }
+  .media {
+    margin: 15px;
+    margin-bottom: 15px;
+    width: 250px;
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/media\ marketing.png");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.media:hover {
+  }
+  .media:hover {
     transform: scale(0.8);
-}
-.advertising {
-    margin:15px;
-    /*width: auto;*/
+  }
+  .advertising {
+    margin: 15px;
+    margin-bottom: 15px;
+    width: 250px;
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/advertising.jpeg");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.advertising:hover {
+  }
+  .advertising:hover {
     transform: scale(0.8);
-}
-.game {
-    margin:15px;
-    /*width: auto;*/
+  }
+  .game {
+    margin: 15px;
+    margin-bottom: 15px;
+    width: 250px;
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/game\ development.jpeg");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.game:hover {
+  }
+  .game:hover {
     transform: scale(0.8);
-} 
-.analytics {
-    margin:15px;
-    /*width: auto;*/
+  }
+  .analytics {
+    margin: 15px;
+    margin-bottom: 15px;
+    width: 250px;
     height: 250px;
     border-radius: 5px;
     background-image: url("../pictures/analytics.jpeg");
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.analytics:hover {
+  }
+  .analytics:hover {
     transform: scale(0.8);
-}
-/* wokrs */
-.all-works {
+  }
+  /*-------------------- wokrs---------------------- */
+  .all-works {
     border-radius: 20px;
-    background-color: black;
-    background-size: cover;
-    background-position: center;
-    background-image: url("../pictures/fondo\ works.jpeg");
-    height: auto;  
+    background-color: rgba(50, 50, 50, 0.5);
+    height: auto;
     width: auto;
     padding-top: 100px;
     margin: 15px;
     display: flex;
     flex-wrap: wrap;
-}
-.work-one {
-    margin:15px;
+    justify-content: center;
+  }
+  .work-one {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -224,12 +207,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-one:hover {
+  }
+  .work-one:hover {
     transform: scale(1.2);
-}
-.work-two {
-    margin:15px;
+  }
+  .work-two {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -237,12 +220,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-two:hover {
+  }
+  .work-two:hover {
     transform: scale(1.2);
-}
-.work-three {
-    margin:15px;
+  }
+  .work-three {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -250,12 +233,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-three:hover {
+  }
+  .work-three:hover {
     transform: scale(1.2);
-}
-.work-for {
-    margin:15px;
+  }
+  .work-for {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -263,12 +246,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-for:hover {
+  }
+  .work-for:hover {
     transform: scale(1.2);
-}
-.work-five {
-    margin:15px;
+  }
+  .work-five {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -276,12 +259,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-five:hover {
+  }
+  .work-five:hover {
     transform: scale(1.2);
-}
-.work-six {
-    margin:15px;
+  }
+  .work-six {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -289,12 +272,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-six:hover {
+  }
+  .work-six:hover {
     transform: scale(1.2);
-}
-.work-seven {
-    margin:15px;
+  }
+  .work-seven {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -302,12 +285,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-seven:hover {
+  }
+  .work-seven:hover {
     transform: scale(1.2);
-}
-.work-eight {
-    margin:15px;
+  }
+  .work-eight {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -315,12 +298,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-eight:hover {
+  }
+  .work-eight:hover {
     transform: scale(1.2);
-}
-.work-nine {
-    margin:15px;
+  }
+  .work-nine {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -328,12 +311,12 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-nine:hover {
+  }
+  .work-nine:hover {
     transform: scale(1.2);
-}
-.work-ten {
-    margin:15px;
+  }
+  .work-ten {
+    margin: 15px;
     width: 300px;
     height: 200px;
     border-radius: 5px;
@@ -341,7 +324,32 @@ header {
     background-color: black;
     background-size: cover;
     background-position: center;
-}
-.work-ten:hover {
+  }
+  .work-ten:hover {
     transform: scale(1.2);
-}
+  }
+  /*---------------footer-------------*/
+  .button {
+    color: white;
+    margin-left: 43%;
+    background: transparent;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 17px;
+    border-color: rgba(50, 50, 50, 0.5);
+  }
+  .end-card {
+    padding: 10px;
+    color: white;
+  }
+  .footer {
+    border-radius: 20px;
+    height: auto;
+    width: auto;
+    background-color: rgba(50, 50, 50, 0.5);
+    display: flex;
+    margin: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
